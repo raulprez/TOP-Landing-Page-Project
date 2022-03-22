@@ -48,3 +48,32 @@ a:hover, a:active { text-decoration: none; color:white }
     width: auto;
     height:231px;
 }
+
+.infoTitle {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding: 16px;
+}
+
+.infoWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.infoImage {
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+}
