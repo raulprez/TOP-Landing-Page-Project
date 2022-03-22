@@ -18,3 +18,33 @@ a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:white; }
 a:hover, a:active { text-decoration: none; color:white }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 32px;
+}
+
+.leftHero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    gap: 14px;
+}
+
+.leftHeroTitle {
+    font-size: 38px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.heroImage {
+    width: auto;
+    height:231px;
+}
