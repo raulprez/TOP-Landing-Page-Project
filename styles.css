@@ -69,6 +69,7 @@ a:hover, a:active { text-decoration: none; color:white }
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 64px;
     
 }
 
@@ -76,4 +77,21 @@ a:hover, a:active { text-decoration: none; color:white }
     height: 150px;
     width: auto;
     border-radius: 25px;
+}
+
+.quoteWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    width: 380px;
+}
+
+.quoteCredit {
+    text-align: right;
+    font-weight: 800;
 }
